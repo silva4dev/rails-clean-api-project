@@ -1,6 +1,5 @@
-# interfaceクラス
-module Domain
-  module User
+module User
+  module Domain
     class UserRepositoryIF
       def save(user)
         raise "Not implemented yet"

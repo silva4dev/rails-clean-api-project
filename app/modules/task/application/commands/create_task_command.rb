@@ -1,5 +1,5 @@
-module Application
-  module Task
+module Task
+  module Application
     module Commands
       class CreateTaskCommand
         attr_accessor :user_id, :name, :status

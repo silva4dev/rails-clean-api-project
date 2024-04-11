@@ -1,6 +1,5 @@
-# interfaceクラス
-module Domain
-  module Task
+module Task
+  module Domain
     class TaskRepositoryIF
       # task
       def save(task)
@@ -14,9 +13,7 @@ module Domain
       def delete(task)
         raise "Not implemented yet"
       end
-      
-      # Q：sub_taskのcrudどうなる？
-      # sub_task
+
       def save(task)
         raise "Not implemented yet"
       end
@@ -28,7 +25,6 @@ module Domain
       def delete(task)
         raise "Not implemented yet"
       end
-
     end
   end
 end

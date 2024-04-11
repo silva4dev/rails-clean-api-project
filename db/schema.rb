@@ -11,7 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 2020_11_23_071713) do
-
   create_table "sub_tasks", force: :cascade do |t|
     t.integer "task_id"
     t.string "name", null: false
@@ -28,5 +27,4 @@ ActiveRecord::Schema.define(version: 2020_11_23_071713) do
     t.string "name", null: false
     t.string "mail_address"
   end
-
 end

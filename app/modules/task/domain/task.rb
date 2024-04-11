@@ -1,14 +1,13 @@
-require_relative '../../infra/models/application_record'
+require_relative "../../shared/models/application_record"
 
-module Domain
-  module Task
-    class Task < Infra::Models::ApplicationRecord
+module Task
+  module Domain
+    class Task < Shared::Models::ApplicationRecord
       has_many :sub_tasks
 
       attribute :user_id, :integer
       attribute :name, :string
       attribute :status, :integer, default: 0
-
     end
   end
 end
